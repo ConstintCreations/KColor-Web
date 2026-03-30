@@ -3,3 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #3d226f;
+}
+
+/* For Testing */
+[data-color="#333333"] {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+[data-color="#000000"] {
+    background-color: #000000;
+    color: #ffffff;
+}
+/**/
+
+.colors {
+    display: flex;
+    flex-direction: row;
+    width: 100svw;
+    height: 100svh;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10svw;
+}
+
+.color {
+    flex: 1;
+    height: 60svh;
+    display: grid;
+    place-items: center;
+    font-size: 1.5em;
+}
