@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #3d226f;
+    background-color: #25043f;
 }
 
 /* For Testing */
@@ -18,6 +18,19 @@ body {
     background-color: #000000;
     color: #ffffff;
 }
+[data-color="#111111"] {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+[data-color="#222222"] {
+    background-color: #222222;
+    color: #ffffff;
+}
+[data-color="#444444"] {
+    background-color: #444444;
+    color: #ffffff;
+}
 /**/
 
 .colors {
@@ -25,15 +38,13 @@ body {
     flex-direction: row;
     width: 100svw;
     height: 100svh;
-    gap: 10px;
     justify-content: center;
-    align-items: center;
-    padding: 0px 10svw;
+    align-items: end;
 }
 
 .color {
     flex: 1;
-    height: 60svh;
+    height: 85svh;
     display: grid;
     place-items: center;
     font-size: 1.5em;
